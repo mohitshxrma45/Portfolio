@@ -102,7 +102,7 @@ export const Experience: React.FC = () => {
 
           <div className="flex flex-col">
             {allItems.map((item, i) => (
-              <TimelineItem key={`timeline-${i}`} data={item} type={item.type} isEven={i % 2 === 0} />
+              <TimelineItem key={`timeline-${i}`} data={item} type={item.type as 'edu' | 'achievement'} isEven={i % 2 === 0} />
             ))}
           </div>
         </div>
