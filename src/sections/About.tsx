@@ -13,7 +13,7 @@ export const About: React.FC = () => {
   useEffect(() => {
     if (!textRef.current || !sectionRef.current) return;
 
-    const splitText = new SplitType(textRef.current, { types: 'lines, words', wordClass: 'opacity-20 transition-colors duration-300' });
+    const splitText = new SplitType(textRef.current, { types: 'lines,words', wordClass: 'opacity-20 transition-colors duration-300' });
 
     gsap.to(splitText.words, {
       opacity: 1,
