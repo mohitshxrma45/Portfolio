@@ -80,11 +80,8 @@ export const Experience: React.FC = () => {
     );
   }, []);
 
-  // Combine and interleave items
-  const allItems = [
-    ...portfolioData.achievements.map(item => ({ ...item, type: 'achievement' as const })),
-    ...portfolioData.education.map(item => ({ ...item, type: 'edu' as const }))
-  ];
+  // Use the pre-sorted journey array
+  const allItems = portfolioData.journey;
 
   return (
     <section id="experience" className="py-24 md:py-48 bg-surface relative z-10 shadow-[0_-20px_50px_rgba(0,0,0,0.5)]">

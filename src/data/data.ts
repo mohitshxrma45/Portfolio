@@ -46,47 +46,46 @@ export const portfolioData = {
       image: "auth-thumb.png"
     }
   ],
-  achievements: [
+  journey: [
     {
       id: 1,
-      title: "Mr. Fresher",
-      period: "Achievement",
-      description: "Awarded Mr. Fresher title at college.",
-    },
-    {
-      id: 2,
-      title: "Best Mimicry Award",
-      period: "Achievement",
-      description: "Recognized for best mimicry performance.",
-    },
-    {
-      id: 3,
-      title: "Winner - College Cricket Tournament",
-      period: "Achievement",
-      description: "Winning team member in the college cricket tournament.",
-    }
-  ],
-  education: [
-    {
-      id: 1,
-      degree: "B.Tech in Computer Science & Engineering",
-      institution: "Sanskar College of Engineering & Technology (AKTU)",
-      period: "Graduation: June 2026",
-      description: "CGPA: 7.42",
-    },
-    {
-      id: 2,
-      degree: "Higher Secondary (12th)",
+      type: "edu",
+      title: "Secondary (10th)",
       institution: "UP Board",
-      period: "Completed",
+      period: "2020",
+      description: "Percentage: 83.5%",
+    },
+    {
+      id: 2,
+      type: "edu",
+      title: "Higher Secondary (12th)",
+      institution: "UP Board",
+      period: "2022",
       description: "Percentage: 74.4%",
     },
     {
       id: 3,
-      degree: "Secondary (10th)",
-      institution: "UP Board",
-      period: "Completed",
-      description: "Percentage: 83.5%",
+      type: "achievement",
+      title: "Mr. Fresher",
+      institution: "",
+      period: "2022",
+      description: "Awarded Mr. Fresher title at college.",
+    },
+    {
+      id: 4,
+      type: "achievement",
+      title: "Best Mimicry Award",
+      institution: "",
+      period: "2023, 2024, 2025",
+      description: "Recognized for best mimicry performance.",
+    },
+    {
+      id: 5,
+      type: "edu",
+      title: "B.Tech in Computer Science & Engineering",
+      institution: "Sanskar College of Engineering & Technology (AKTU)",
+      period: "2026",
+      description: "CGPA: 7.42",
     }
   ],
   socialLinks: {
